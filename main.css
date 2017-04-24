@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  font-family: "Open Sans", sans-serif;
 }
 ol, ul {
   list-style: none;
@@ -41,14 +42,56 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+p {
+  color: #95989A;
+}
+h4, .sub-title, .title {
+  color: #FF924E;
+  text-align: center;
+}
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+h5 {
+  font-size: 20px;
+
+}
 #hero {
   width: 100%;
   height: 100vh;
   background-image: url("./src/images/hero.jpg");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.name-container {
+  flex: 1;
+  padding-top: 70px;
+  padding-left: 70px;
+  color: white;
+}
+.nav-container {
+  display: flex;
+  flex: 1;
+}
+.nav-links {
+  padding-top: 70px;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
 }
 .nav-links a {
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: bold;
   color: white;
   text-decoration: none;
 }
@@ -56,18 +99,30 @@ table {
   color: #FF924E;
   text-decoration: none;
 }
-p {
-  color: #95989A;
-}
-h4, .title {
-  color: #FF924E;
+.scroll-message {
+  display: flex;
+  flex: 5;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 18px;
   text-align: center;
+  color: white;
+  padding-bottom: 40px;
 }
 #skills, #about {
   background-color: #FAFAFA;
+  display: flex;
 }
-
+.title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.work-container {
+  display: flex;
+  flex-direction: row;
+}
 .matik {
+  flex: 1;
   background-image: url('./src/images/fx.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,6 +130,7 @@ h4, .title {
   position: relative;
 }
 .softspot {
+  flex: 1;
   background-image: url('./src/images/spm.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -82,41 +138,62 @@ h4, .title {
   position: relative;
 }
 .content {
+  display: flex;
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
+  justify-content: center;
+  align-items: center;
+}
+.content a {
+  max-width: 70%;
+  min-width: 50%;
+}
+.content img {
+  width: 100%;
+  max-height: 100vh;
 }
 #narnia {
   width: 100%;
   height: 100vh;
   background-image: url("./src/images/narniabg.jpg");
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-#narnia .max-height {
-  height:100%;
+.description {
+  flex-basis: 450px;
+  padding: 30px;
+  background: rgba(0,0,0,0.2);
+  border-radius: 10px;
 }
-#narnia img { 
-  width: 100%;
+.description p{
+  color: white;
 }
-#narnia .center-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
+.screenshot img{
+  max-height: 80vh;
+  /*max-width: 1000px;*/
+  flex-basis: 55%;
+  border-radius: 10px;
 }
 #fridgepedia {
   width: 100%;
   height: 100vh;
   background-image: url("./src/images/fridgepediabg.jpg");
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 #moneyio {
   width: 100%;
   height: 100vh;
   background-image: url("./src/images/moneyiobg.jpg");
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }

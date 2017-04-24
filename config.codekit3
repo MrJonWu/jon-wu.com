@@ -53,20 +53,19 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/src\/images\/dues.png": {
-		"ft": 32768,
-		"iS": 330479,
+	"\/src\/images\/due.jpg": {
+		"ft": 16384,
+		"iS": 55639,
 		"oA": 0,
-		"oAP": "\/src\/images\/dues.png",
+		"oAP": "\/src\/images\/due.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/src\/images\/fridgepedia.png": {
 		"ft": 32768,
-		"iS": 876234,
+		"iS": 532021,
 		"oA": 0,
 		"oAP": "\/src\/images\/fridgepedia.png",
 		"oF": 0,
@@ -167,15 +166,14 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/src\/images\/transactions.png": {
-		"ft": 32768,
-		"iS": 311287,
+	"\/src\/images\/transaction.jpg": {
+		"ft": 16384,
+		"iS": 44562,
 		"oA": 0,
-		"oAP": "\/src\/images\/transactions.png",
+		"oAP": "\/src\/images\/transaction.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/src\/images\/wamlogowhitetransparent.png": {
