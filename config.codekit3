@@ -25,6 +25,15 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/main-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/main-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -34,6 +43,15 @@
 		"oAP": "\/main-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/README.md": {
 		"cS": 0,
@@ -52,6 +70,16 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/src\/images\/database.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/images\/database.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/src\/images\/due.jpg": {
 		"ft": 16384,
@@ -84,6 +112,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/src\/images\/frontend.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/images\/frontend.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/src\/images\/fx.jpg": {
 		"ft": 16384,
 		"iS": 84358,
@@ -111,7 +149,7 @@
 		"oAP": "\/src\/images\/me.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/src\/images\/moneyiobg.jpg": {
@@ -144,6 +182,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/src\/images\/server.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/images\/server.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/src\/images\/softspot_logo.png": {
 		"ft": 32768,

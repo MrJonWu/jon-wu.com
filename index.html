@@ -1,138 +1,213 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Jonathan Wu | Full Stack Developer</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Jonathan Wu | Full Stack Developer</title>
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+ <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+
   <link rel="stylesheet" type="text/css" href="main.css" />
+  
 </head>
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
   <!-- Hero -->
   <div id="hero">
-    <div class="nav-container">
-      <div class="name-container">
-        <h3>JONATHAN WU</h1>
-        <h5>FULL STACK ENGINEER</h5>
-        <h5>LOS ANGELES, CA</h5>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top">Jonathan Wu</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
+            <li><a class="page-scroll" href="#skills">My Skills</a>
+            <li><a class="page-scroll" href="#experience">My Work</a></li>
+            <li><a class="page-scroll" href="#projects">My Projects</a></li>
+            <li><a class="page-scroll" href="#about">About</a></li>
+          </ul>
+        </div>
       </div>
-      <ul class="nav-links">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">MY WORK</a></li>
-        <li><a href="#">MY PROJECTS</a></li>
-        <li><a href="#">ABOUT ME</a></li>
-      </ul>
+    </nav>
+    <div class="scroll-message">
+      SCROLL FOR MORE 
+      <a class="page-scroll" href="#skills"><i class="fa fa-angle-down fa-3x"></i></a>
     </div>
-    <div class="scroll-message">SCROLL FOR MORE</div>
+
   </div>
+
   <!-- Skills -->
   <section id="skills">
     <div class="container">
       <div class="row">
-        <div>
-          <h3 class="title">MY SKILLS</h3>
+        <div class="col-lg-12 text-center">
+          <h2 class="title">MY SKILLS</h2>
+          <hr>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
-          <h4 class="sub-title">FRONT END DESIGN</h4>
-          <i class="fa fa-cogs"></i>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia dolor quis sapien tristique ullamcorper. Integer non dui euismod, fringilla velit sollicitudin, vulputate orci. Donec auctor leo arcu, in consequat diam vehicula sed. Vestibulum purus orci, molestie vel posuere sed, hendrerit quis nunc. Sed a blandit ligula. Aliquam molestie molestie velit, nec blandit quam aliquet nec. In blandit tellus tristique, accumsan nisl eu, varius ipsum.</p>
+
+        <div class="col-md-4 sr-skills">
+          <img class="svg-icon center-block" src="./src/images/frontend.svg" />
+          <h3 class="sub-title">Front End Design</h3>
+          <p class="skills-copy">I have experience building front-end interfaces and single page applications using modern frameworks like React, React Native, Angular, Bootstrap, and Semantic UI.</p>
         </div>
-        <div class="col-md-4">
-          <h4 class="sub-title">BACK END</h4>
-          <i class="fa fa-code"></i>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia dolor quis sapien tristique ullamcorper. Integer non dui euismod, fringilla velit sollicitudin, vulputate orci. Donec auctor leo arcu, in consequat diam vehicula sed. Vestibulum purus orci, molestie vel posuere sed, hendrerit quis nunc. Sed a blandit ligula. Aliquam molestie molestie velit, nec blandit quam aliquet nec. In blandit tellus tristique, accumsan nisl eu, varius ipsum.</p>
+
+        <div class="col-md-4 sr-skills">
+          <img class="svg-icon center-block" src="./src/images/server.svg" />
+          <h3 class="sub-title">Back End</h3>
+          <p class="skills-copy">I have experience setting up Node.js servers with the help of Express and Webpack. I have experience deploying to Heroku and DigitalOcean droplets.</p>
         </div>
-        <div class="col-md-4">
-          <h4 class="sub-title">DATABASES</h4>
-          <i class="fa fa-bug"></i>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia dolor quis sapien tristique ullamcorper. Integer non dui euismod, fringilla velit sollicitudin, vulputate orci. Donec auctor leo arcu, in consequat diam vehicula sed. Vestibulum purus orci, molestie vel posuere sed, hendrerit quis nunc. Sed a blandit ligula. Aliquam molestie molestie velit, nec blandit quam aliquet nec. In blandit tellus tristique, accumsan nisl eu, varius ipsum.</p>
+
+        <div class="col-md-4 sr-skills">
+          <img class="svg-icon center-block" src="./src/images/database.svg" />
+          <h3 class="sub-title">Databases</h3>
+          <p class="skills-copy">I have experience working with relational SQL and noSQL databases, specifically MySQL and MongoDB. I am comfortable writing raw database queries as well as using ORMs like Mongoose.</p>
         </div>
+
       </div>
     </div>
   </section>
+
   <!-- Work Experience -->
-  <section>
+  <section id="experience" class="no-bottom-pad">
     <div class="container">    
       <div class="row">
-        <div>
-          <h3 class="title">WORK EXPERIENCE</h3>
+        <div class="col-lg-12 text-center">
+          <h2 class="title light">WORK EXPERIENCE</h2>
+          <hr class="light">
         </div>
       </div>
     </div>
+
     <div class="work-container">
+
       <div class="matik">
         <div class="content">        
-          <a href="http://wearematik.com/">
+          <a href="http://wearematik.com/" target="_blank">
             <img src="./src/images/wamlogowhitetransparent.png" />
           </a>
         </div>
       </div>
+
       <div class="softspot">
         <div class="content">
-          <a href="http://softspotmedia.com/" />
+          <a href="http://softspotmedia.com/" target="_blank">
             <img src="./src/images/softspot_logo.png">
           </a>
         </div>
       </div>
+
     </div>
   </section>
+
   <!-- Projects -->
-  <section>
-    <h3 class="title">MY PROJECTS</h3>
+  <section id="projects" class="no-bottom-pad">
+    <div class="col-lg-12 text-center">
+      <h2 class="title light">MY PROJECTS</h2>
+      <hr class="light">
+    </div>
+
     <div id="narnia">
       <div class="description">
-        <h4>Narnia</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia dolor quis sapien tristique ullamcorper. Integer non dui euismod, fringilla velit sollicitudin, vulputate orci. Donec auctor leo arcu, in consequat diam vehicula sed. Vestibulum purus orci, molestie vel posuere sed, hendrerit quis nunc. Sed a blandit ligula. Aliquam molestie molestie velit, nec blandit quam aliquet nec. In blandit tellus tristique, accumsan nisl eu, varius ipsum.</p>
+        <h3 class="project-title">Narnia</h3>
+        <p>Narnia is a social media platform to encourage and assist in the creation of user generated content for the fashion space. Having basic social platform functionality (likes, shares, comments, etc) allows users to easily share their outfits and get feedback on their styling. Users are able to upload their personal wardrobe into the application and design outfits to wear without having to pull anything out of their closets. Tapping into Amazon's Product Advertising API makes adding clothing easy and seamless.</p>
+        <br />
+        <p>Tech Stack: React Native, Node, Express, MySQL</p>
       </div>
-      <div class="screenshot">
-        <img class="img-responsive" src="./src/images/narnia2.png" />
+
+      <div class="screenshot sr-narnia-img">
+        <a href="https://github.com/MrJonWu/NarniaNative" target="_blank">
+          <img class="img-responsive" src="./src/images/narnia2.png" />
+        </a>
       </div> 
     </div>
+
     <div id="moneyio">
-      <div class="screenshot">
-        <img class="img-responsive" src="./src/images/due.jpg" />
-      </div> 
+      <div class="screenshot sr-moneyio-img">
+        <a href="https://github.com/MrJonWu/Money-io" target="_blank">
+          <img class="img-responsive" src="./src/images/due.jpg" />
+        </a>
+      </div>
+
       <div class="description">
-        <h4>Money.io</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia dolor quis sapien tristique ullamcorper. Integer non dui euismod, fringilla velit sollicitudin, vulputate orci. Donec auctor leo arcu, in consequat diam vehicula sed. Vestibulum purus orci, molestie vel posuere sed, hendrerit quis nunc. Sed a blandit ligula. Aliquam molestie molestie velit, nec blandit quam aliquet nec. In blandit tellus tristique, accumsan nisl eu, varius ipsum.</p>
+        <h3 class="project-title">Money.io</h3>
+        <p>Money.io is an expense and debt tracking app that simplifies splitting expenses with friends. Users store their transactions and loans in a SQLite database so they can hang out without worrying about remembering who owes whom money.</p>
+        <br />
+        <p>Tech Stack: HTML, CSS, JavaScript, React, Node, Express, SQLite 3, Bookshelf</p>
       </div>
     </div>
+
     <div id="fridgepedia">
       <div class="description">
-        <h4>Fridgepedia</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia dolor quis sapien tristique ullamcorper. Integer non dui euismod, fringilla velit sollicitudin, vulputate orci. Donec auctor leo arcu, in consequat diam vehicula sed. Vestibulum purus orci, molestie vel posuere sed, hendrerit quis nunc. Sed a blandit ligula. Aliquam molestie molestie velit, nec blandit quam aliquet nec. In blandit tellus tristique, accumsan nisl eu, varius ipsum.</p>
+        <h3 class="project-title">Fridgepedia</h3>
+        <p>Fridgepedia is expiration date tracking app designed to reduce food waste. Users simply input the grocery items they have in their refrigerator with a consume-by date. The app stores this information in a Mongo database and displays an easy-to-read table of food items with a status indicator that warns the user if an item is expired. In addition, when a user clicks on an item in the table, the application makes a request to the Edamam API and displays a list of recommended recipes with calorie and serving size information. The recipe thumbnails link to the full list of ingredients and cooking instructions.</p>
+        <br />
+        <p>Tech Stack: HTML, CSS, JavaScript, Angular, Node, Express, MongoDB, Mongoose</p>
       </div>
-      <div class="screenshot">
-        <img class="img-responsive" src="./src/images/fridgepedia.png" />
+
+      <div class="screenshot sr-fridge-img">
+        <a href="https://github.com/MrJonWu/fridgepedia" target="_blank">
+          <img class="img-responsive" src="./src/images/fridgepedia.png" /> 
+        </a>
       </div> 
     </div>
+
   </section>
   <!-- About Me -->
   <section id="about">
     <div class="container">    
       <div class="row">
-        <div>
-          <h3 class="title">ABOUT ME</h3>
+        <div class="col-lg-12 text-center">
+          <h2 class="title">ABOUT</h2>
+          <hr>
         </div>
       </div>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row vcenter">
           <div class="col-md-4">
-            <img src="./src/images/me.jpg" class="img-responsive img-circle" />
+            <img src="./src/images/me.jpg" class="img-responsive img-circle center-block" />
           </div>
           <div class="col-md-8">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia dolor quis sapien tristique ullamcorper. Integer non dui euismod, fringilla velit sollicitudin, vulputate orci. Donec auctor leo arcu, in consequat diam vehicula sed. Vestibulum purus orci, molestie vel posuere sed, hendrerit quis nunc. Sed a blandit ligula. Aliquam molestie molestie velit, nec blandit quam aliquet nec. In blandit tellus tristique, accumsan nisl eu, varius ipsum.</p>
+            <p>I am a passionate software engineer who enjoys the challenge of building things from scratch and seeing people interact with my products. My enthusiasm for programming started at a creative ad agency where I specialized in building interactive installations and mobile apps in Adobe ActionScript 3.0 for companies like Samsung, Hyundai, and Shane Co. From there I helped create a company called Softspot Media where I co-wrote custom photobooth software that aggregated Instagram posts and allowed users to digitally draw on their photos before printing. My primary focus is full stack web development, but I have experience building desktop and mobile applications as well.</p>
           </div> 
         </div>
       </div>
     </div>
   </section>
-
+  <footer>
+    <div class="icon-container">
+      <a href="https://github.com/MrJonWu" target="_blank">
+        <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/jonathan-s-wu" target="_blank">
+        <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+      </a>
+      <a href="https://angel.co/jonathan-wu-15" target="_blank">
+        <i class="fa fa-angellist fa-3x" aria-hidden="true"></i>
+      </a> 
+    </div>
+  </footer>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
