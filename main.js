@@ -25,7 +25,31 @@ $(document).ready(function() {
     }
   });
 
+  $('#type-message').typeIt({
+    startDelay: 1000,
+    speed: 70,
+    lifeLike: true,
+    autoStart: false
+  })
+  .tiType('I am a designer.')
+  .tiPause(1500)
+  .tiDelete(9)
+  .tiType('problem solver.')
+  .tiPause(1500)
+  .tiDelete(15)
+  .tiType('creator.')
+  .tiPause(1500)
+  .tiDelete(15)
+  .tiType('FULL STACK DEVELOPER')
+  .tiPause(500)
+  .tiBreak()
+  .tiType('LOS ANGELES, CA');
+
   window.sr = ScrollReveal();
+  sr.reveal('.sr-logo', {
+    duration: 1000,
+    distance: '0px'
+  });
   sr.reveal('.sr-my-skills', {
     duration: 600,
     distance: '0px'

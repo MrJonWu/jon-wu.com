@@ -11,9 +11,11 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,500" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="main.css" />
   
@@ -35,20 +37,46 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
+            <li><a class="page-scroll" href="#about">About</a></li>
             <li><a class="page-scroll" href="#skills">My Skills</a>
             <li><a class="page-scroll" href="#experience">My Work</a></li>
             <li><a class="page-scroll" href="#projects">My Projects</a></li>
-            <li><a class="page-scroll" href="#about">About</a></li>
           </ul>
         </div>
       </div>
     </nav>
+    <div class="header-content sr-logo">
+      <img class="logo img-responsive center-block" src="./src/images/logo.svg"/>
+      <h1 id="type-message"></h1>
+    </div>
     <div class="scroll-message">
       SCROLL FOR MORE 
-      <a class="page-scroll" href="#skills"><i class="fa fa-angle-down fa-3x"></i></a>
+      <a class="page-scroll" href="#about"><i class="fa fa-angle-down fa-3x"></i></a>
     </div>
 
   </div>
+
+  <!-- About Me -->
+  <section id="about">
+    <div class="container">    
+      <div class="row">
+        <div class="col-lg-12 text-center sr-about">
+          <h2 class="title">ABOUT</h2>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row vcenter">
+        <div class="col-md-4 sr-me">
+          <img src="./src/images/me.jpg" class="img-responsive img-circle center-block" />
+        </div>
+        <div class="col-md-8 sr-me">
+          <p>I am a passionate software engineer who enjoys the challenge of building things from scratch and seeing people interact with my products. My enthusiasm for programming started at a creative ad agency where I specialized in building interactive installations and mobile apps in Adobe ActionScript 3.0 for companies like Samsung, Hyundai, and Shane Co. From there I helped create a company called Softspot Media where I co-wrote custom photobooth software that aggregated Instagram posts and allowed users to digitally draw on their photos before printing. My primary focus is full stack web development, but I have experience building desktop and mobile applications as well.</p>
+        </div> 
+      </div>
+    </div>
+  </section>
 
   <!-- Skills -->
   <section id="skills">
@@ -64,19 +92,19 @@
         <div class="col-md-4 sr-skills">
           <img class="svg-icon center-block" src="./src/images/frontend.svg" />
           <h3 class="sub-title">Front End Design</h3>
-          <p>I have experience building front-end interfaces and single page applications using modern frameworks like React, React Native, Angular, Bootstrap, and Semantic UI.</p>
+          <p>I build front-end interfaces and single page applications using modern frameworks like React, React Native, Angular, Bootstrap, and Semantic UI.</p>
         </div>
 
         <div class="col-md-4 sr-skills">
           <img class="svg-icon center-block" src="./src/images/server.svg" />
           <h3 class="sub-title">Back End</h3>
-          <p>I have experience setting up Node.js servers with the help of Express and Webpack. I have experience deploying to Heroku and DigitalOcean droplets.</p>
+          <p>I create servers with Node.js, Express, and Webpack, which I deploy to Heroku and DigitalOcean. In addition, I work with SQL and noSQL databases like MySQL and MongoDB.</p>
         </div>
 
         <div class="col-md-4 sr-skills">
-          <img class="svg-icon center-block" src="./src/images/database.svg" />
-          <h3 class="sub-title">Databases</h3>
-          <p>I have experience working with relational SQL and noSQL databases, specifically MySQL and MongoDB. I am comfortable writing raw database queries as well as using ORMs like Mongoose.</p>
+          <img class="svg-icon center-block" src="./src/images/git.svg" />
+          <h3 class="sub-title">Best Practices</h3>
+          <p>I use Git for version control, follow Agile methodologies like Scrum, and advocate Test Driven Development.</p>
         </div>
 
       </div>
@@ -180,27 +208,6 @@
     </div>
 
   </section>
-  <!-- About Me -->
-  <section id="about">
-    <div class="container">    
-      <div class="row">
-        <div class="col-lg-12 text-center sr-about">
-          <h2 class="title">ABOUT</h2>
-          <hr>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row vcenter">
-        <div class="col-md-4 sr-me">
-          <img src="./src/images/me.jpg" class="img-responsive img-circle center-block" />
-        </div>
-        <div class="col-md-8 sr-me">
-          <p>I am a passionate software engineer who enjoys the challenge of building things from scratch and seeing people interact with my products. My enthusiasm for programming started at a creative ad agency where I specialized in building interactive installations and mobile apps in Adobe ActionScript 3.0 for companies like Samsung, Hyundai, and Shane Co. From there I helped create a company called Softspot Media where I co-wrote custom photobooth software that aggregated Instagram posts and allowed users to digitally draw on their photos before printing. My primary focus is full stack web development, but I have experience building desktop and mobile applications as well.</p>
-        </div> 
-      </div>
-    </div>
-  </section>
   <footer>
     <div class="icon-container">
       <a href="https://github.com/MrJonWu" target="_blank">
@@ -219,6 +226,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
